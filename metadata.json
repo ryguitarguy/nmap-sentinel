@@ -1,0 +1,6 @@
+{
+  "name": "Nmap Sentinel - Network Security & Vulnerability Analyzer",
+  "description": "Intelligent Nmap scan parser, network attack surface analyzer, real-time vulnerability monitoring, and automated remediation reporting engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

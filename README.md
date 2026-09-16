@@ -4,6 +4,8 @@ A web-based network security and vulnerability analyzer that ingests Nmap scans 
 
 ## 🚀 Key Features
 
+**[🚀 Launch Nmap Sentinel Live](https://nmapsentinel.ai.studio)**
+
 *   **Multi-Format Ingestion:** Supports `.txt` (standard Nmap terminal output & grepable formats), `-oX` `.xml` (standard Nmap XML), `.json`, and `.csv` exports. Includes drag-and-drop file upload, direct command output pasting, and preloaded enterprise scan scenarios.
 *   **Automated Weak Spot Detection:** Automatically identifies critical network exposure vectors such as legacy cleartext protocols (Telnet, FTP, HTTP), exposed database listeners (Redis, MongoDB, MySQL), dangerous services (vsftpd backdoors, EternalBlue/SMBv1), and unauthenticated management ports, complete with CVSS scores and CVE references.
 *   **Actionable Remediation Engine:** Provides step-by-step remediation procedures for identified issues, featuring copyable terminal hardening commands for Linux (UFW/iptables), Windows, and network firewalls. Includes live status tracking to recalculate security posture scores in real time.
